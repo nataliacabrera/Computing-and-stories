@@ -37,6 +37,10 @@
 	color: white;
 }
 
+#presenters, #workshops, #tickets, #schedule {
+  padding-top:14%;
+}
+
 .myImg {
 
 	display: block;
@@ -46,7 +50,7 @@
 }
 
 #coverPicture {
-	padding: 2%;
+	padding-top: 2%;
 
 }
 
@@ -77,6 +81,7 @@ h2{
 
 h4, h5 {
 	color: #00ccff;
+  padding-top:2%;
 }
 
 #workshops h4 {
