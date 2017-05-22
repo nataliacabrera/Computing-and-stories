@@ -15,7 +15,7 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+  <!--<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"> -->
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -36,37 +36,44 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-    <div class="row" style="background-color: #00ccff;">
-      <div  id="myMenu" class="one-third column" style="margin-top: 10%" >
-        
-
-        <h3><a href="#presenters">Presenters</a></h3>
-        <h3><a href="#workshops">Workshops</a></h3>
-        <h3><a href="#schedule">Schedule</a></h3>
-        <h3><a href="#tickets">Tickets</a></h3>
-
-        <p>School For poetic Computation       
-        <br>155 Bank St., 
-        <br>New York, NY 10014</p>
-
-      </div>
-     <div class="two-thirds column" style="margin-top: 10%;">
-        
-
-        <h1>Computing & Stories</h1>
+    <div class="row" style="background-color: #00ccff; padding: 2%; margin-top: 2%;">
+          
+         <div  class="two-thirds column" style="margin-top: 2%;">
+            
+            <div id="myIntro">
+            <h1>Computing & Stories</h1>
 
 
-            <p>We are excited to announce the first Computing and Stories Summit at the School for Poetic Computation, co-organized by Linda Liukas and Taeyoon Choi, featuring Amy Wibowo, Jie Qi, Jenna Register, and Natalie Freed. We’d like to invite the wider community to explore following questions through workshops and presentations:</p>
+                <p>We are excited to announce the first Computing and Stories Summit at the School for Poetic Computation, co-organized by Linda Liukas and Taeyoon Choi, featuring Amy Wibowo, Jie Qi, Jenna Register, and Natalie Freed. We’d like to invite the wider community to explore following questions through workshops and presentations:</p>
 
-            <p>How can we illustrate complex technical concepts through playful and inviting visuals? How can we contribute to a culture of engineering and science that’s respectful and inviting to women, people of color, disabled persons, and the LGBTQ community? How can we use storytelling as a vehicle to bring change to the unequal and unethical systems around technology? How can we create stories that reveal these complex questions through engaging narrative?</p>
+                <p>How can we illustrate complex technical concepts through playful and inviting visuals? How can we contribute to a culture of engineering and science that’s respectful and inviting to women, people of color, disabled persons, and the LGBTQ community? How can we use storytelling as a vehicle to bring change to the unequal and unethical systems around technology? How can we create stories that reveal these complex questions through engaging narrative?</p>
+
+            </div>    
+          </div>
+
+                <div  id="myMenu" class="one-third column" style="margin-top: 0%" >
+                        
+
+                        <h3><a href="#presenters">Presenters </a></h3>
+                        <h3><a href="#workshops">Workshops </a></h3>
+                        <h3><a href="#schedule">Schedule </a></h3>
+                        <h3><a href="#tickets">Tickets </a></h3>
+
+                        <p>June 1st., 2017</p>
+                        <br><p>School For poetic Computation       
+                        <br>155 Bank St., 
+                        <br>New York, NY 10014</p>
+                </div>
 
 
-      </div>
     </div>
 
         <div class="row">
+            <div id="coverPictureDiv" style="text-align: center;">
+                <img id="coverPicture" src="./assets/pics/computing_and_stories-01.jpg" alt="Computing and Stories" width="60%">
+            </div>
 
-                <div id="presenters">
+                <div id="presenters" style="padding-top: 2%;">
                     <h2>Presenters</h2>
                 
                 <p>Computing & Stories is a collective of artists and engineers who love to write and draw about computers. We are passionate about making computing more accessible and inclusive through comics, zines, children’s books, kits and workshops.</p>
@@ -132,34 +139,42 @@
 
         </div>
 
-    <div id="workshops"></div>
+                            
 
-        <h2>Workshops</h2>
+ <div id="workshops"><h2>Workshops</h2>
+    <div class= "row">
+        <div  class="one-half column">
 
-        <h4>Session 1:</h4><br> 
+            <h4>Session 1:</h4><br> 
 
-        <h5>Toys to Think With by Linda Liukas</h5>
-        <p>This workshop is inspired by Seymour Papert’s ideas. We will explore both digital and physical toys to help us think through bigger questions. Bring your ideas about toys that you like and toys you want to think with. No technical skills necessary to participate in the workshop.</p>
+                <h5>Toys to Think With by Linda Liukas</h5>
+                <p>This workshop is inspired by Seymour Papert’s ideas. We will explore both digital and physical toys to help us think through bigger questions. Bring your ideas about toys that you like and toys you want to think with. No technical skills necessary to participate in the workshop.</p>
 
-        <h5>Bookbinding and the Math behind it by Natalie Freed</h5>
-        <p>This workshop is an introduction to Asian Stab Bookbinding and Graph Theory Math. We will learn how to stitch our own books with any kind of spine pattern you can think of using math. Bring some patterns inspiration to make them into your very own handmade book. Materials will be provided.</p>
+                <h5>Bookbinding and the Math behind it by Natalie Freed</h5>
+                <p>This workshop is an introduction to Asian Stab Bookbinding and Graph Theory Math. We will learn how to stitch our own books with any kind of spine pattern you can think of using math. Bring some patterns inspiration to make them into your very own handmade book. Materials will be provided.</p>
 
-        <h5>Handmade Computer by Taeyoon Choi</h5>
-        <p>What if we hand make our computers? Participants will learn to use breadboard, switch, LED and NAND (which is short for not AND logic) Integrated Circuit chips. By combining NAND gates in various arrangements we will make every possible binary logic pattern. We will make Half-Adder which has an arithmetic function that performs Boolean algebra. This workshop is geared for someone without prior experience. </p>
+                <h5>Handmade Computer by Taeyoon Choi</h5>
+                <p>What if we hand make our computers? Participants will learn to use breadboard, switch, LED and NAND (which is short for not AND logic) Integrated Circuit chips. By combining NAND gates in various arrangements we will make every possible binary logic pattern. We will make Half-Adder which has an arithmetic function that performs Boolean algebra. This workshop is geared for someone without prior experience. </p>
 
-        <h4>Session 2:</h4><br> 
+        </div>
+        <div  class="one-half column">
 
-        <h5>Friendly Introduction to A.I. by Jenna Register</h5>
-        <p>This workshop is for anyone who’s interested in Artificial Intelligence. We will learn about the fundamental concepts and terms such as Search, Constraint Satisfaction, Classification, and Inference. We will explore the topic through fun activities, discussions with a focus in storytelling.</p>
+            <h4>Session 2:</h4><br> 
 
-        <h5>Zines as a Friendly Introduction to Complex Concepts, by Amy Wibowo</h5>
-        <p>This workshop centers on hands-on zine making activities. We will explore the possibilities of zines; characters, stories, and diagrams to tell complex computer science concepts. We will focus on making zines friendly and inclusive for a community that is often left outside of the engineering world. Tools and materials will be provided.</p>
+                <h5>Friendly Introduction to A.I. by Jenna Register</h5>
+                <p>This workshop is for anyone who’s interested in Artificial Intelligence. We will learn about the fundamental concepts and terms such as Search, Constraint Satisfaction, Classification, and Inference. We will explore the topic through fun activities, discussions with a focus in storytelling.</p>
 
-        <h5>Storytelling with Paper Circuit Posters by Jie Qi</h5>
-        <p>In this workshop, we will start from simple paper circuits with copper tape and circuit sticker LEDs and move on to making an interactive poster using a pre-programmed microcontroller board. Bring ideas and short stories to add! Materials will be provided.</p>
+                <h5>Zines as a Friendly Introduction to Complex Concepts, by Amy Wibowo</h5>
+                <p>This workshop centers on hands-on zine making activities. We will explore the possibilities of zines; characters, stories, and diagrams to tell complex computer science concepts. We will focus on making zines friendly and inclusive for a community that is often left outside of the engineering world. Tools and materials will be provided.</p>
 
-        <p>*Registered participants will be able to sign up for two workshops, one in each session.</p>  
+                <h5>Storytelling with Paper Circuit Posters by Jie Qi</h5>
+                <p>In this workshop, we will start from simple paper circuits with copper tape and circuit sticker LEDs and move on to making an interactive poster using a pre-programmed microcontroller board. Bring ideas and short stories to add! Materials will be provided.</p>
 
+                <p>*Registered participants will be able to sign up for two workshops, one in each session.</p>  
+    
+        </div>
+    </div>
+</div>
         <div id="schedule">
 
         <h2>Schedule</h2>
@@ -181,25 +196,22 @@
 
     <div id="tickets">
 
-        Tickets: 
-        Register on Eventbrite 
+        <h2>Tickets</h2>
 
-        General Admission: $100 
-        This ticket will give you access to presentations from 3 pm and After Party. 
+        <h5><a href= "https://www.eventbrite.com/e/computing-and-stories-summit-tickets-34363860231">Register on Eventbrite</a></h5> 
 
-        General Admission + Workshop: $200 
-        This ticket is for an intimate workshop session with the presenters that begin at 12pm. This ticket also gives access to presentations and After Party.  
+        <p>General Admission: $100 
+        <br>This ticket will give you access to presentations from 3 pm and After Party.</p> 
 
-        Limited numbers of student tickets are available at 50% discount. 
+        <p> General Admission + Workshop: $200 
+        <br>This ticket is for an intimate workshop session with the presenters that begin at 12pm. This ticket also gives access to presentations and After Party.</p>  
+        <br>
+        <p>Limited numbers of student tickets are available at 50% discount.</p> 
 
 
     </div>
 
         </div>
-
-            <div id="coverPictureDiv">
-                <img id="coverPicture" src="./assets/pics/computing_and_stories-01.jpg" alt="Computing and Stories" width="100%">
-            </div>
   </div>
 
 <!-- End Document
